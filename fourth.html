@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="digitalclock.js" defer></script>
+    <style>
+        img{
+            border-style: double;
+            border-color: blueviolet;
+        }
+        body{
+            background-color: bisque;
+        }
+        .container{
+             display: flex;
+             background-color: indianred;
+             font-size: medium;
+             align-items: center; /*vertically beechmaa raakhnay vayo */
+             justify-content: center; /*horizontally beechmaa raakhany vayo*/
+             height: 100vph;
+             font-size: 50px;
+             border-style: outset;
+             border-width: 4px;
+             width: fit-content;
+             margin :auto;
+        }
+    </style>
+</head>
+<body>
+   <H>Here is our digital clock</H> 
+   <br> 
+   <h><b>Yo smith saud ko ghadi ho haat na lagaau</b></h>
+   <br>
+   <h2><b>Ani yo tala ko photo smith ko ho</b></h2>
+   <br>
+   <img src="bhai.jpg" width="200">
+   <div class="container">
+    <div id="hours">10</div>
+    <div>:</div>
+    <div id="minutes">10</div>
+    <div>:</div>
+    <div id="seconds">10</div>
+    <div>&nbsp;</div>
+    <div id="ampm">AM</div> <!--am ra pm set garna laae use hunay vayo-->
+   </div> 
+</body>
+</html>
